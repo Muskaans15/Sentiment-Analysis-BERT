@@ -5,10 +5,9 @@ emoji: "🤖"
 colorFrom: red
 colorTo: pink
 sdk: gradio
-sdk_version: "4.44.0"
 app_file: app.py
 pinned: false
--------------
+
 
 # Sentiment Analysis using BERT
 
@@ -18,16 +17,12 @@ The application analyzes movie reviews and predicts whether the sentiment is **P
 
 The model was trained on the **IMDB movie review dataset** and integrated into a simple web interface using **Gradio**, allowing users to test the model directly from the browser.
 
----
-
 ## Features
 
 * Analyze the sentiment of a single movie review
 * Detect **Positive, Negative, Neutral, and Mixed sentiments**
 * Upload a **CSV file containing multiple reviews**
 * Download the **results as a CSV file**
-
----
 
 ## Technologies Used
 
@@ -37,9 +32,7 @@ The model was trained on the **IMDB movie review dataset** and integrated into a
 * Gradio
 * Pandas
 
----
-
-## Run Locally
+## Running the Project Locally
 
 Install dependencies:
 
